@@ -60,7 +60,7 @@
 			}
 
 			.btn {
-				display: inline-block;
+				/* display: inline-block; */
 				color: white;
 				background-color: #2C86D9;
 				border-radius: 100px;
@@ -98,6 +98,39 @@
 
 			.hero img {
 				max-width: 100%;
+			}
+
+			.btn-mobile {
+				display: none;
+			}
+
+			@media screen and (max-width: 1200px) {
+				header nav,
+				header .btn {
+					display: none;
+				}
+
+				.btn-mobile {
+					display: inline-block;
+				}
+
+				.hero {
+					grid-template-columns: 100%;
+					gap: 4rem;
+				}
+
+				#hero-illustration {
+					order: -1;
+				}
+
+				header {
+					margin-bottom: 4rem;
+				}
+
+				h1,
+				h2 {
+					margin-bottom: 2rem;
+				}
 			}
 		</style>
 	</head>
