@@ -95,3 +95,40 @@ form button {
   font-size: 18px;
   line-height: 1.55;
 }
+
+/* Container */
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container.small {
+  width: 60%;
+  max-width: 35rem;
+} 
+
+/* Header */
+#main-header,
+section {
+  padding: 13rem 0;
+  text-align: center;
+}
+
+#main-header h1 {
+  margin: 7rem 0 1rem 0;
+}
+#main-header h2 {
+  margin: 7rem;
+}
+
+.btn {
+  padding: 1.3rem 3.5rem;
+  border: 1px solid rgb(159, 118, 87);
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: rgb(60, 58, 71);
+  border-color: rgb(60, 58, 71);
+  color: white;
+}
