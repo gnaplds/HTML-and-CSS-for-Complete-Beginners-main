@@ -132,3 +132,37 @@ section {
   border-color: rgb(60, 58, 71);
   color: white;
 }
+
+/* Chair section */
+#our-chairs {
+  background-color: #eff0ea;
+}
+
+section header {
+  margin-bottom: 3.5rem;
+}
+
+h3 + p {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+img {
+  max-width: 100%;
+} 
+
+.gallery div {
+  text-align: start;
+}
+
+.gallery img {
+  margin-bottom: 1.3rem;
+}
