@@ -166,3 +166,64 @@ img {
 .gallery img {
   margin-bottom: 1.3rem;
 }
+
+/* Contact */
+.dark {
+  background-color: rgb(60, 58, 71);
+}
+
+.dark label {
+  color: rgba(255, 255, 255, .8);
+}
+
+form div {
+  margin-bottom: 1.75rem;
+}
+
+form label {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-bottom: .5rem;
+}
+
+form input,
+form textarea {
+  background-color: rgba(255, 255, 255, .1);
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  color: white;
+  resize: none;
+}
+
+form input:focus
+form textarea:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+}
+
+.dark .btn {
+  border: 1px solid rgba(255, 255, 255, .8);
+  background: transparent;
+  color: white;
+}
+
+.dark .btn:hover {
+  background-color: white;
+  color: rgb(60, 58, 71);
+}
+
+p.muted {
+  color: rgba(255, 255, 255, .5);
+}
+
+form button + p {
+  margin-top: 1.75rem;
+}
