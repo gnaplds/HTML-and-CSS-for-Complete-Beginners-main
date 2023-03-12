@@ -17,6 +17,8 @@
 
 			* {
 				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
 			}
 
 			body {
@@ -29,6 +31,39 @@
 				height: 297px;
 				margin-bottom: 2rem;
 			}
+
+			.card div {
+				position: relative;
+				top: 90px;
+				left: 250px;
+			}
+
+			h2 {
+				font-weight: 900;
+				margin-bottom: 1rem;
+			}
+
+			.stats {
+				list-style: none;
+			}
+
+			.stats li {
+				display: inline-block;
+				margin-right: 1.7rem;
+			}
+
+			.title {
+				font-weight: 700;
+				font-size: 1.1rem;
+				color: black;
+				margin-bottom: 0.5rem;
+			}
+
+			li p {
+				color: rgb(61, 61, 61);
+				font-size: 0.9rem;
+			}
+
 
 			#viking {
 				background-image: url(images/characters/bg-elephant.jpg);
@@ -48,48 +83,54 @@
 			<!-- Write your HTML here -->
 
 			<div class="card" id="viking">
-				<h2>The Viking</h2>
-
-				<ul class="stats">
-					<li>
-						<p class="title">68%</p>
-						<p>Win Rate</p>
-					</li>
-					<li>
-						<p class="title">522</p>
-						<p>Games Played</p>
-					</li>
-				</ul>
+				<div>
+					<h2>The Viking</h2>
+	
+					<ul class="stats">
+						<li>
+							<p class="title">68%</p>
+							<p>Win Rate</p>
+						</li>
+						<li>
+							<p class="title">522</p>
+							<p>Games Played</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<div class="card" id="sorceress">
-				<h2>The Sorceress</h2>
-
-				<ul class="stats">
-					<li>
-						<p class="title">97%</p>
-						<p>Win Rate</p>
-					</li>
-					<li>
-						<p class="title">1922</p>
-						<p>Games Played</p>
-					</li>
-				</ul>
+				<div>
+					<h2>The Sorceress</h2>
+	
+					<ul class="stats">
+						<li>
+							<p class="title">97%</p>
+							<p>Win Rate</p>
+						</li>
+						<li>
+							<p class="title">1922</p>
+							<p>Games Played</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<div class="card" id="fashionista">
-				<h2>The Fashionista</h2>
-
-				<ul class="stats">
-					<li>
-						<p class="title">24%</p>
-						<p>Win Rate</p>
-					</li>
-					<li>
-						<p class="title">124</p>
-						<p>Games Played</p>
-					</li>
-				</ul>
+				<div>
+					<h2>The Fashionista</h2>
+	
+					<ul class="stats">
+						<li>
+							<p class="title">24%</p>
+							<p>Win Rate</p>
+						</li>
+						<li>
+							<p class="title">124</p>
+							<p>Games Played</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 			<!-- Practice area end -->
