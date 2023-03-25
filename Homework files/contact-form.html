@@ -56,18 +56,28 @@
 
 			<form action="" method="post">
 				<div>
-					<label for="login-email">Email address</label>
-					<input type="email" name="login-email" id="login-email" autofocus>
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" autofocus>
 				</div>
 
 				<div>
-					<label for="login-password">Password</label>
-					<input type="password" name="login-password" id="login-password">
+					<label for="login-email">Email address</label>
+					<input type="email" name="login-email" id="login-email">
 				</div>
 
-				<br>
+				<div>
+					<label for="department">Department</label>
+					<select name="department" id="department">
+						<option value="Select a department">Select a department</option>
+					</select>
+				</div>
 
-				<a href="" class="btn">Sign In</a>
+				<div>
+					<label for="message">Message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</div>
+
+				<a href="" class="btn">Send Message</a>
 			</form>
 
 			<!-- Practice area end -->
